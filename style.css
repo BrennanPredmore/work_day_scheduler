@@ -58,14 +58,33 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    width: 30px;
+  height: 30px;
+  margin: auto;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  input {
+    background-color: #d3d3d3;
+    width: 85%;
+    padding-left: 5%;
+    font-size: 14px;
+
+    
+  }
+
+  .row{
+    background-color: #d3d3d3;
+    height: 50px;
+
+}
+
+#saveBtn {
+
+}
+  
+  
