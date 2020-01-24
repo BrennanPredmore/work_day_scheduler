@@ -4,7 +4,7 @@ This repo is composed of 3 pages
 Index.html / style.css / script.js 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-![Screenshot](/Users/brennanpredmore/Desktop/work_day_scheduler/assets/images/workDaySchedulerScreenShot.png)
+![Screenshot](/assets/images/workDaySchedulerScreenShot.png)
 
 ## Github pages:
 
