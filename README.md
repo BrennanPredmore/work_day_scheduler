@@ -1,4 +1,4 @@
-# Code Quiz:
+# Work Day Scheduler:
 
 This repo is composed of 3 pages
 Index.html / style.css / script.js 
