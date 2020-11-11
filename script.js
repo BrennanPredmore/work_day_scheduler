@@ -23,7 +23,7 @@ $(document).ready(function () {
     
 
 // 9am
-$('#saveBtn1').on('click', function () {
+$('#saveBtn9am').on('click', function () {
     $('input#9am').css('border', '5px solid black');
 
     // Set Local storage
@@ -31,14 +31,14 @@ $('#saveBtn1').on('click', function () {
     localStorage.setItem('item9am', (itemInput));
 
 
-    $('#saveBtn1').on('click', function () {
+    $('#saveBtn9am').on('click', function () {
         $('input#9am').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item9am');
     });
 
     // Remove text from input
-    $('saveBtn1').on('click', function(){
+    $('saveBtn9am').on('click', function(){
         $('#9am').val() = "";
     })
    
@@ -47,14 +47,14 @@ $('#saveBtn1').on('click', function () {
 
 
 // 10am
-$('#saveBtn2').on('click', function () {
+$('#saveBtn10am').on('click', function () {
     $('input#10am').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#10am').val();
     localStorage.setItem('item10am', (itemInput));
     
-    $('#saveBtn2').on('click', function () {
+    $('#saveBtn10am').on('click', function () {
         $('input#10am').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item10am');
@@ -64,14 +64,14 @@ $('#saveBtn2').on('click', function () {
 
 
 // 11am
-$('#saveBtn3').on('click', function () {
+$('#saveBtn11am').on('click', function () {
     $('input#11am').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#11am').val();
     localStorage.setItem('item11am', (itemInput));
 
-    $('#saveBtn3').on('click', function () {
+    $('#saveBtn11am').on('click', function () {
         $('input#11am').css('opacity', '0.5');
         //Remove Local Storage
         localStorage.removeItem('item11am');
@@ -81,14 +81,14 @@ $('#saveBtn3').on('click', function () {
 
 
 // 12pm
-$('#saveBtn4').on('click', function () {
+$('#saveBtn12pm').on('click', function () {
     $('input#12pm').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#12pm').val();
     localStorage.setItem('item12pm', (itemInput));
 
-    $('#saveBtn4').on('click', function () {
+    $('#saveBtn12pm').on('click', function () {
         $('input#12pm').css('opacity', '0.5');
         //Remove Local Storage
         localStorage.removeItem('item12pm');
@@ -98,14 +98,14 @@ $('#saveBtn4').on('click', function () {
 
 
 // 1pm
-$('#saveBtn5').on('click', function () {
+$('#saveBtn1pm').on('click', function () {
     $('input#1pm').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#1pm').val();
     localStorage.setItem('item1pm', (itemInput));
 
-    $('#saveBtn5').on('click', function () {
+    $('#saveBtn1pm').on('click', function () {
         $('input#1pm').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item1pm');
@@ -116,14 +116,14 @@ $('#saveBtn5').on('click', function () {
 
 
 // 2pm
-$('#saveBtn6').on('click', function () {
+$('#saveBtn2pm').on('click', function () {
     $('input#2pm').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#2pm').val();
     localStorage.setItem('item2pm', (itemInput));
 
-    $('#saveBtn6').on('click', function () {
+    $('#saveBtn2pm').on('click', function () {
         $('input#2pm').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item2pm');
@@ -133,14 +133,14 @@ $('#saveBtn6').on('click', function () {
 
 
 // 3pm
-$('#saveBtn7').on('click', function () {
+$('#saveBtn3pm').on('click', function () {
     $('input#3pm').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#3pm').val();
     localStorage.setItem('item3pm', (itemInput));
 
-    $('#saveBtn7').on('click', function () {
+    $('#saveBtn3pm').on('click', function () {
         $('input#3pm').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item3pm');
@@ -151,14 +151,14 @@ $('#saveBtn7').on('click', function () {
 
 
 // 4pm
-$('#saveBtn8').on('click', function () {
+$('#saveBtn4pm').on('click', function () {
     $('input#4pm').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#4pm').val();
     localStorage.setItem('item4pm', (itemInput));
 
-    $('#saveBtn8').on('click', function () {
+    $('#saveBtn4pm').on('click', function () {
         $('input#4pm').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item4pm');
@@ -167,14 +167,14 @@ $('#saveBtn8').on('click', function () {
 });
 
 // 5pm
-$('#saveBtn9').on('click', function () {
+$('#saveBtn5pm').on('click', function () {
     $('input#5pm').css('border', '5px solid black');
 
     // Set Local Storage
     var itemInput = $('#5pm').val();
     localStorage.setItem('item5pm', (itemInput));
 
-    $('#saveBtn9').on('click', function () {
+    $('#saveBtn5pm').on('click', function () {
         $('input#5pm').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item5pm');
