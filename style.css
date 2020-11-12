@@ -38,9 +38,11 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: red;
   border-radius: 0;
   border-bottom: 10px solid black;
+  font-weight: bolder;
+  text-shadow: 2px 2px black
 }
 
 .row {
@@ -62,6 +64,12 @@ input {
   width: 85%;
   padding-left: 5%;
   font-size: 14px;
+}
+
+#currentDay {
+  color: red;
+  font-weight: bolder;
+  text-shadow: 2px 2px black
 }
 
 .container {
