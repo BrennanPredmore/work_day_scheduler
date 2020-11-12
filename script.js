@@ -23,6 +23,7 @@ $(document).ready(function () {
     
 
 // 9am
+
 $('#saveBtn9am').on('click', function () {
     $('input#9am').css('border', '5px solid black');
 
@@ -35,11 +36,12 @@ $('#saveBtn9am').on('click', function () {
         $('input#9am').css('opacity', '0.5');
         // Remove Local Storage
         localStorage.removeItem('item9am');
+                $('input#9am').val('');
     });
 
     // Remove text from input
-    $('saveBtn9am').on('click', function(){
-        $('#9am').val() = "";
+    $('saveBtn9am').on('click', function() {
+        $('input#9am').val('');
     })
    
 
