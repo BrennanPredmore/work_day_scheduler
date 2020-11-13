@@ -1,77 +1,85 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
- 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+
     /* Location of the image */
-    background-image: url(assets/images/brown-wooden-dock-over-body-of-water-1227520.jpg);
-    
+    background-image: url('assets/images/brown-wooden-dock-over-body-of-water-1227520.jpg');
+
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
-    
+
     /* Background image doesn't tile */
     background-repeat: no-repeat;
-    
+
     /* Background image is fixed in the viewport so that it doesn't move when 
        the content's height is greater than the image's height */
     background-attachment: fixed;
-    
+
     /* This is what makes the background image rescale based
        on the container's size */
     background-size: cover;
-    
+
     /* Set a background color that will be displayed
        while the background image is loading */
     background-color: #464646;
 
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
 .jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: red;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-  font-weight: bolder;
-  text-shadow: 2px 2px black
+    text-align: center;
+    background-color: transparent;
+    color: red;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    font-weight: bolder;
+    text-shadow: 2px 2px black
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
-  background-color: #d3d3d3;
-  height: 50px;
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+    background-color: #d3d3d3;
+    height: 50px;
 }
 
 .saveBtn {
-  width: 30px;
-  height: 30px;
-  margin: auto;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.trashBtn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding-top: 10px;
 }
 
 input {
-  background-color: #d3d3d3;
-  width: 85%;
-  padding-left: 5%;
-  font-size: 14px;
+    background-color: #d3d3d3;
+    width: 85%;
+    padding-left: 5%;
+    font-size: 14px;
 }
 
 #currentDay {
-  color: red;
-  font-weight: bolder;
-  text-shadow: 2px 2px black
+    color: red;
+    font-weight: bolder;
+    text-shadow: 2px 2px black
 }
 
 .container {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.firstClick {
+  border: 5px solid black;
+}
+
+.secondClick {
+  opacity: 0.5;
 }
