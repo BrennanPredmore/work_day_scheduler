@@ -24,9 +24,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Links:
-https://brennanpredmore.github.io/work_day_scheduler/
+[Github Pages](https://brennanpredmore.github.io/work_day_scheduler/)
 
-https://github.com/BrennanPredmore/work_day_scheduler
+[Github Repo](https://github.com/BrennanPredmore/work_day_scheduler)
 
 ## License
 No License required. These are public pages. 
